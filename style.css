@@ -17,3 +17,14 @@ body{background-color:var(--bg);background-image:repeating-linear-gradient(to bo
 @media(max-width:760px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-card.wide{grid-column:span 2}.photo-card img{height:180px}}
 @media(max-width:460px){.photo-grid{grid-template-columns:1fr}.photo-card.wide{grid-column:auto}.photo-card img,.photo-card.wide img{height:auto;aspect-ratio:4/3}}
 @media print{body{background-image:none!important}}
+
+/* Quiet, factual career markers — no animated counters. */
+.career-numbers{padding:34px 0 31px;background:rgba(0,0,0,.09)}
+.career-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.career-stat{display:flex;align-items:center;gap:17px;border-left:2px solid var(--accent);padding-left:21px;min-width:0}
+.career-stat strong{font:600 clamp(38px,4.6vw,63px)/1 Arial,Helvetica,sans-serif;letter-spacing:-.055em;font-variant-numeric:tabular-nums}
+.career-stat span{font-size:14px;line-height:1.35;color:var(--fg)}
+.career-stat small{font-size:11px;color:var(--muted)}
+.career-note{color:var(--muted);font-size:12px;margin:19px 0 0;letter-spacing:.01em}
+@media(max-width:650px){.career-numbers{padding:26px 0}.career-stats{grid-template-columns:1fr;gap:21px}.career-stat{gap:20px}.career-stat strong{min-width:60px}.career-note{line-height:1.5}}
+@media print{.career-numbers{display:none}}
