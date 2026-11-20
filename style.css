@@ -49,3 +49,12 @@ body{background-color:var(--bg);background-image:repeating-linear-gradient(to bo
 
 /* Patent evidence, matched to restrained engineering visual style. */
 .patent-records{margin-top:52px}.patent-records>.eyebrow{margin-bottom:20px}.patent-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.patent-list article{padding:24px;border:1px solid var(--line);border-top:2px solid var(--accent);background:rgba(255,255,255,.02)}.patent-list .patent-id{font-size:11px;letter-spacing:.045em;color:var(--accent)}.patent-list h3{font-size:21px;margin:14px 0 9px}.patent-list p{font-size:14px;color:var(--muted);margin:0 0 14px}.patent-list a{color:var(--accent);font-size:13px;text-decoration:underline;text-underline-offset:3px}@media(max-width:650px){.patent-list{grid-template-columns:1fr}}
+
+/* Handcraft portrait in the opening panel, preserving the original typography. */
+.hero-main{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,32%);gap:30px;align-items:start}
+.hero-main>div{min-width:0;padding-top:5px}
+.hero-portrait{margin:0;justify-self:end;width:min(100%,330px);position:relative}
+.hero-portrait img{display:block;width:100%;height:395px;object-fit:cover;object-position:center 59%;border:1px solid rgba(255,255,255,.58);border-radius:2px;filter:grayscale(1)}
+.hero-portrait figcaption{font-size:11px;color:var(--muted);letter-spacing:.045em;margin-top:9px}
+@media(max-width:760px){.hero-main{grid-template-columns:1fr}.hero-portrait{justify-self:start;width:min(100%,390px)}.hero-portrait img{height:auto;max-height:460px;object-fit:cover}.hero{gap:26px}}
+@media(min-width:761px) and (max-width:1050px){.hero-main{grid-template-columns:minmax(0,1fr) 28%;gap:20px}.hero-portrait img{height:360px}}
