@@ -6,7 +6,7 @@
 main img, .portfolio-photo, .project-photo, .gallery img {display:block;max-width:100%;border:1px solid rgba(255,255,255,.62);box-shadow:0 0 0 1px rgba(255,255,255,.08);border-radius:2px}
 
 /* Fine horizontal drafting-paper texture, intentionally low contrast. */
-body{background-color:var(--bg);background-image:repeating-linear-gradient(to bottom,transparent 0,transparent 22px,rgba(255,255,255,.026) 23px,transparent 24px);background-attachment:fixed}
+body{background-color:var(--bg);background-image:repeating-linear-gradient(to bottom,transparent 0,transparent 18px,rgba(255,255,255,.026) 19px,transparent 20px);background-attachment:fixed}
 .top{background:rgba(48,50,54,.95)}
 /* Photo-led physical-work gallery */
 .photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin-top:30px}
