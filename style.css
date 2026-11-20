@@ -46,3 +46,6 @@ body{background-color:var(--bg);background-image:repeating-linear-gradient(to bo
 .company-list p{color:var(--muted);margin:0}
 @media(max-width:820px){.impact-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:500px){.impact-stats,.company-list{grid-template-columns:1fr}.impact-stat{padding:16px}.company-history{margin-top:38px}}
+
+/* Patent evidence, matched to restrained engineering visual style. */
+.patent-records{margin-top:52px}.patent-records>.eyebrow{margin-bottom:20px}.patent-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.patent-list article{padding:24px;border:1px solid var(--line);border-top:2px solid var(--accent);background:rgba(255,255,255,.02)}.patent-list .patent-id{font-size:11px;letter-spacing:.045em;color:var(--accent)}.patent-list h3{font-size:21px;margin:14px 0 9px}.patent-list p{font-size:14px;color:var(--muted);margin:0 0 14px}.patent-list a{color:var(--accent);font-size:13px;text-decoration:underline;text-underline-offset:3px}@media(max-width:650px){.patent-list{grid-template-columns:1fr}}
