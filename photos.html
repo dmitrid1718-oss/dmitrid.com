@@ -6,7 +6,17 @@
 <title>Work in Photos | Dmitri Doubovikov</title>
 <meta name="description" content="Dmitri Doubovikov’s exhibit structures, fabric forms and technical drawings.">
 <link rel="stylesheet" href="style.css">
-<style>.shop-gallery .photo-card img{object-fit:contain;background:var(--bg)}</style>
+<style>
+.shop-gallery { display: flex; flex-wrap: wrap; align-items: flex-start; }
+.shop-gallery .photo-card { flex: var(--ratio) 1 calc(var(--ratio) * 225px); }
+.shop-gallery .photo-card img { height: auto; aspect-ratio: auto; }
+@media (max-width: 760px) {
+  .shop-gallery .photo-card { flex-basis: calc(var(--ratio) * 175px); }
+}
+@media (max-width: 460px) {
+  .shop-gallery .photo-card { flex-basis: 100%; }
+}
+</style>
 </head>
 <body>
 <header class="top"><nav class="wrap"><a class="brand" href="index.html#top">DMITRI DOUBOVIKOV</a><div class="navlinks"><a href="index.html#story">Story</a><a href="index.html#engineering">Engineering</a><a href="photos.html" aria-current="page">Work</a><a href="index.html#approach">Approach</a><a href="resume.html">Resume</a><a href="mailto:hello@dmitrid.com">Contact</a></div></nav></header>
@@ -14,31 +24,31 @@
 <div class="section-head"><h1>Work in photos</h1><p>Current fabrication work, exhibit structures and technical drawings. Select a photo to see it at full size.</p></div>
 <h2>Current work</h2>
 <div class="photo-grid shop-gallery">
-<figure class="photo-card"><a href="assets/shop/2.webp"><img src="assets/shop/2.webp" alt="Stair landing and open shelving" loading="eager"></a><figcaption>Stair landing and open shelving</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/3.webp"><img src="assets/shop/3.webp" alt="Bar and lounge by the windows" loading="eager"></a><figcaption>Bar and lounge by the windows</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/4.webp"><img src="assets/shop/4.webp" alt="Illuminated entry corridor" loading="lazy"></a><figcaption>Illuminated entry corridor</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/5.webp"><img src="assets/shop/5.webp" alt="Communal tables and curved wall openings" loading="lazy"></a><figcaption>Communal tables and curved wall openings</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/6.webp"><img src="assets/shop/6.webp" alt="Pendant lights above the lobby" loading="lazy"></a><figcaption>Pendant lights above the lobby</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/7.webp"><img src="assets/shop/7.webp" alt="Curved counter in a shared workspace" loading="lazy"></a><figcaption>Curved counter in a shared workspace</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/8.webp"><img src="assets/shop/8.webp" alt="Service counter with a black surround" loading="lazy"></a><figcaption>Service counter with a black surround</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/9.webp"><img src="assets/shop/9.webp" alt="Perforated metal column wrap" loading="lazy"></a><figcaption>Perforated metal column wrap</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/10.webp"><img src="assets/shop/10.webp" alt="Lounge seating under a suspended light" loading="lazy"></a><figcaption>Lounge seating under a suspended light</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/11.webp"><img src="assets/shop/11.webp" alt="Reception desk and illuminated wall" loading="lazy"></a><figcaption>Reception desk and illuminated wall</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/12.webp"><img src="assets/shop/12.webp" alt="Open stair above a seating area" loading="lazy"></a><figcaption>Open stair above a seating area</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/13.webp"><img src="assets/shop/13.webp" alt="Stair railing and landing" loading="lazy"></a><figcaption>Stair railing and landing</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/14.webp"><img src="assets/shop/14.webp" alt="Mesh railing at the balcony edge" loading="lazy"></a><figcaption>Mesh railing at the balcony edge</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/15.webp"><img src="assets/shop/15.webp" alt="Fireplace overlooking the skyline" loading="lazy"></a><figcaption>Fireplace overlooking the skyline</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/16.webp"><img src="assets/shop/16.webp" alt="Slatted ceiling above a lounge" loading="lazy"></a><figcaption>Slatted ceiling above a lounge</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/17.webp"><img src="assets/shop/17.webp" alt="Slatted ceiling and curved seating" loading="lazy"></a><figcaption>Slatted ceiling and curved seating</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/18.webp"><img src="assets/shop/18.webp" alt="Shelving between structural columns" loading="lazy"></a><figcaption>Shelving between structural columns</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/19.webp"><img src="assets/shop/19.webp" alt="Corridor with a recessed ceiling" loading="lazy"></a><figcaption>Corridor with a recessed ceiling</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/20.webp"><img src="assets/shop/20.webp" alt="Long counter with open shelving" loading="lazy"></a><figcaption>Long counter with open shelving</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/21.webp"><img src="assets/shop/21.webp" alt="Bar seating and overhead shelving" loading="lazy"></a><figcaption>Bar seating and overhead shelving</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/22.webp"><img src="assets/shop/22.webp" alt="Mesh enclosure around a stair" loading="lazy"></a><figcaption>Mesh enclosure around a stair</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/23.webp"><img src="assets/shop/23.webp" alt="Curved stair around a circular desk" loading="lazy"></a><figcaption>Curved stair around a circular desk</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/24.webp"><img src="assets/shop/24.webp" alt="Arched openings in a lounge" loading="lazy"></a><figcaption>Arched openings in a lounge</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/wire-1.webp"><img src="assets/shop/wire-1.webp" alt="Wire wall installation" loading="lazy"></a><figcaption>Wire wall installation</figcaption></figure>
-<figure class="photo-card"><a href="assets/shop/wire-2.webp"><img src="assets/shop/wire-2.webp" alt="Wire wall installation, side view" loading="lazy"></a><figcaption>Wire wall installation, side view</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.3205"><a href="assets/shop/2.webp"><img width="1067" height="808" src="assets/shop/2.webp" alt="Stair landing and open shelving" loading="eager"></a><figcaption>Stair landing and open shelving</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.4431"><a href="assets/shop/3.webp"><img width="1153" height="799" src="assets/shop/3.webp" alt="Bar and lounge by the windows" loading="eager"></a><figcaption>Bar and lounge by the windows</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.3860"><a href="assets/shop/4.webp"><img width="1106" height="798" src="assets/shop/4.webp" alt="Illuminated entry corridor" loading="lazy"></a><figcaption>Illuminated entry corridor</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5156"><a href="assets/shop/5.webp"><img width="1211" height="799" src="assets/shop/5.webp" alt="Communal tables and curved wall openings" loading="lazy"></a><figcaption>Communal tables and curved wall openings</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5613"><a href="assets/shop/6.webp"><img width="1249" height="800" src="assets/shop/6.webp" alt="Pendant lights above the lobby" loading="lazy"></a><figcaption>Pendant lights above the lobby</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5845"><a href="assets/shop/7.webp"><img width="1266" height="799" src="assets/shop/7.webp" alt="Curved counter in a shared workspace" loading="lazy"></a><figcaption>Curved counter in a shared workspace</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.6299"><a href="assets/shop/8.webp"><img width="1299" height="797" src="assets/shop/8.webp" alt="Service counter with a black surround" loading="lazy"></a><figcaption>Service counter with a black surround</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.4962"><a href="assets/shop/9.webp"><img width="1194" height="798" src="assets/shop/9.webp" alt="Perforated metal column wrap" loading="lazy"></a><figcaption>Perforated metal column wrap</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5592"><a href="assets/shop/10.webp"><img width="1252" height="803" src="assets/shop/10.webp" alt="Lounge seating under a suspended light" loading="lazy"></a><figcaption>Lounge seating under a suspended light</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5264"><a href="assets/shop/11.webp"><img width="1215" height="796" src="assets/shop/11.webp" alt="Reception desk and illuminated wall" loading="lazy"></a><figcaption>Reception desk and illuminated wall</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.4782"><a href="assets/shop/12.webp"><img width="1184" height="801" src="assets/shop/12.webp" alt="Open stair above a seating area" loading="lazy"></a><figcaption>Open stair above a seating area</figcaption></figure>
+<figure class="photo-card" style="--ratio:0.6722"><a href="assets/shop/13.webp"><img width="529" height="787" src="assets/shop/13.webp" alt="Stair railing and landing" loading="lazy"></a><figcaption>Stair railing and landing</figcaption></figure>
+<figure class="photo-card" style="--ratio:0.6646"><a href="assets/shop/14.webp"><img width="531" height="799" src="assets/shop/14.webp" alt="Mesh railing at the balcony edge" loading="lazy"></a><figcaption>Mesh railing at the balcony edge</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5037"><a href="assets/shop/15.webp"><img width="1203" height="800" src="assets/shop/15.webp" alt="Fireplace overlooking the skyline" loading="lazy"></a><figcaption>Fireplace overlooking the skyline</figcaption></figure>
+<figure class="photo-card" style="--ratio:0.7378"><a href="assets/shop/16.webp"><img width="588" height="797" src="assets/shop/16.webp" alt="Slatted ceiling above a lounge" loading="lazy"></a><figcaption>Slatted ceiling above a lounge</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.3745"><a href="assets/shop/17.webp"><img width="1101" height="801" src="assets/shop/17.webp" alt="Slatted ceiling and curved seating" loading="lazy"></a><figcaption>Slatted ceiling and curved seating</figcaption></figure>
+<figure class="photo-card" style="--ratio:0.7385"><a href="assets/shop/18.webp"><img width="596" height="807" src="assets/shop/18.webp" alt="Shelving between structural columns" loading="lazy"></a><figcaption>Shelving between structural columns</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.3371"><a href="assets/shop/19.webp"><img width="1067" height="798" src="assets/shop/19.webp" alt="Corridor with a recessed ceiling" loading="lazy"></a><figcaption>Corridor with a recessed ceiling</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.3995"><a href="assets/shop/20.webp"><img width="1121" height="801" src="assets/shop/20.webp" alt="Long counter with open shelving" loading="lazy"></a><figcaption>Long counter with open shelving</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5012"><a href="assets/shop/21.webp"><img width="1201" height="800" src="assets/shop/21.webp" alt="Bar seating and overhead shelving" loading="lazy"></a><figcaption>Bar seating and overhead shelving</figcaption></figure>
+<figure class="photo-card" style="--ratio:0.7500"><a href="assets/shop/22.webp"><img width="480" height="640" src="assets/shop/22.webp" alt="Mesh enclosure around a stair" loading="lazy"></a><figcaption>Mesh enclosure around a stair</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.5136"><a href="assets/shop/23.webp"><img width="946" height="625" src="assets/shop/23.webp" alt="Curved stair around a circular desk" loading="lazy"></a><figcaption>Curved stair around a circular desk</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.4921"><a href="assets/shop/24.webp"><img width="940" height="630" src="assets/shop/24.webp" alt="Arched openings in a lounge" loading="lazy"></a><figcaption>Arched openings in a lounge</figcaption></figure>
+<figure class="photo-card" style="--ratio:1.3333"><a href="assets/shop/wire-1.webp"><img width="1800" height="1350" src="assets/shop/wire-1.webp" alt="Wire wall installation" loading="lazy"></a><figcaption>Wire wall installation</figcaption></figure>
+<figure class="photo-card" style="--ratio:0.7500"><a href="assets/shop/wire-2.webp"><img width="1350" height="1800" src="assets/shop/wire-2.webp" alt="Wire wall installation, side view" loading="lazy"></a><figcaption>Wire wall installation, side view</figcaption></figure>
 </div>
 <h2>Exhibits and drawings</h2>
 <div class="photo-grid">
