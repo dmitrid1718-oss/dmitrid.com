@@ -28,3 +28,21 @@ body{background-color:var(--bg);background-image:repeating-linear-gradient(to bo
 .career-note{color:var(--muted);font-size:12px;margin:19px 0 0;letter-spacing:.01em}
 @media(max-width:650px){.career-numbers{padding:26px 0}.career-stats{grid-template-columns:1fr;gap:21px}.career-stat{gap:20px}.career-stat strong{min-width:60px}.career-note{line-height:1.5}}
 @media print{.career-numbers{display:none}}
+
+/* Career evidence: four concise metrics and a factual company history. */
+.career-numbers>.wrap>.eyebrow{margin-bottom:23px}
+.impact-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-bottom:27px}
+.impact-stat{padding:18px 15px 20px;border:1px solid var(--line);border-top:2px solid var(--accent);background:rgba(255,255,255,.025);min-width:0}
+.impact-stat strong{display:block;font:600 clamp(30px,3.5vw,50px)/1.15 Arial,Helvetica,sans-serif;letter-spacing:-.045em;margin-bottom:10px;font-variant-numeric:tabular-nums}
+.impact-stat span{display:block;font-size:13px;line-height:1.38}
+.impact-stat small{display:block;font-size:11px;color:var(--muted);margin-top:6px}
+.career-numbers .career-stats{padding-top:22px;border-top:1px solid var(--line)}
+.company-history{margin-top:60px;max-width:900px}
+.company-history .eyebrow{margin-bottom:20px}
+.company-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.company-list article{border-top:1px solid var(--line);padding-top:20px}
+.company-list small{font-size:11px;color:var(--accent);letter-spacing:.06em}
+.company-list h3{font-size:22px;margin:9px 0 7px}
+.company-list p{color:var(--muted);margin:0}
+@media(max-width:820px){.impact-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:500px){.impact-stats,.company-list{grid-template-columns:1fr}.impact-stat{padding:16px}.company-history{margin-top:38px}}
